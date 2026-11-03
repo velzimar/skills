@@ -1,0 +1,19 @@
+{
+  "name": "velzimar",
+  "owner": {
+    "name": "velzimar",
+    "url": "https://github.com/velzimar"
+  },
+  "metadata": {
+    "description": "velzimar's skills, as an installable Claude Code plugin."
+  },
+  "plugins": [
+    {
+      "name": "velzimar",
+      "source": "./",
+      "description": "Note ideas for later, and ship docs-only changes with CI skipped.",
+      "category": "productivity",
+      "keywords": ["skills", "ideas", "docs", "git"]
+    }
+  ]
+}
