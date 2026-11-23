@@ -8,7 +8,7 @@ A web app and its API in one monorepo (pnpm workspaces), each app split into cro
 apps/api            the API: src/core/, src/modules/<context>/, test/
 apps/web            the web app: src/routes/ (thin), src/core/, src/modules/<context>/
 packages/domain     business rules, value objects, repository interfaces, business-rule constants; no dependencies
-packages/contracts  request/response schemas and routes, one folder per context; depends only on zod
+packages/contracts  request/response schemas and routes, one file per context; depends only on zod
 packages/config     shared tsconfig and eslint presets
 ```
 

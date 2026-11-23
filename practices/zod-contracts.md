@@ -4,10 +4,10 @@ Request and response shapes are Zod schemas in `packages/contracts`, shared by t
 
 ## Rule
 
-- Every request body, query and response is a Zod schema in `packages/contracts`, one folder per context, with its TypeScript type inferred from it. `packages/contracts` depends only on `zod`.
+- Every request body, query and response is a Zod schema in `packages/contracts`, one file per context, with its TypeScript type inferred from it. `packages/contracts` depends only on `zod`.
 - The API validates incoming bodies and queries with those schemas (one validation pipe), and the web app parses responses with them. No second copy of a shape: no per-module DTO classes.
 - A new endpoint starts with its contract; the API and the web app are then built against it.
-- A check a schema cannot express (one needing the domain, or the database) belongs in the service, and fails with the same validation error the pipe would.
+- Controllers stay thin, and a check a schema cannot express belongs in the service: see [Routes in the contracts](routes-in-contracts.md).
 
 ## Why
 

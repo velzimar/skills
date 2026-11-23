@@ -18,7 +18,7 @@ Run in the repo's root. List which of these exist: `CLAUDE.md`, `CONTEXT.md`, `C
 Ask, in one message:
 
 - The project's name (default: the argument, else the folder's name) and one sentence on what it is.
-- Which code practices to adopt: list each row of the index's **Code** table with its one-line summary, numbered, and take a list of numbers, `all` or `none`. Say that Routes in the contracts needs Zod contracts, and Timeout and retry needs One error body; when a chosen practice needs an unchosen one, ask whether to add it.
+- Which code practices to adopt: list each row of the index's **Code** table with its one-line summary, numbered, and take a list of numbers, `all` or `none`. Say that Routes in the contracts needs Zod contracts, and Timeout and retry needs One error body, Client ids and Routes in the contracts; when a chosen practice needs an unchosen one, ask whether to add it.
 
 The process practices are not asked about: every project follows them.
 
