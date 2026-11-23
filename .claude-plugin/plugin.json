@@ -1,13 +1,13 @@
 {
   "name": "velzimar",
-  "version": "1.0.0",
-  "description": "velzimar's agent skills: note ideas for later, and ship docs-only changes with CI skipped.",
+  "version": "1.1.0",
+  "description": "velzimar's agent skills and practices: scaffold a project's docs from the practices, note ideas for later, and ship docs-only changes with CI skipped.",
   "author": {
     "name": "velzimar",
     "url": "https://github.com/velzimar"
   },
   "repository": "https://github.com/velzimar/skills",
   "license": "MIT",
-  "keywords": ["skills", "ideas", "docs", "git", "productivity"],
-  "skills": ["./skills/idea", "./skills/ship-docs"]
+  "keywords": ["skills", "ideas", "docs", "git", "productivity", "practices"],
+  "skills": ["./skills/idea", "./skills/ship-docs", "./skills/setup-project"]
 }
