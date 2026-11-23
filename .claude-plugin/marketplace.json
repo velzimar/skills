@@ -11,9 +11,9 @@
     {
       "name": "velzimar",
       "source": "./",
-      "description": "Note ideas for later, and ship docs-only changes with CI skipped.",
+      "description": "Scaffold a project's docs from velzimar's practices, note ideas for later, and ship docs-only changes with CI skipped.",
       "category": "productivity",
-      "keywords": ["skills", "ideas", "docs", "git"]
+      "keywords": ["skills", "ideas", "docs", "git", "practices"]
     }
   ]
 }
